@@ -1,4 +1,4 @@
-###Tata cara install Termux
+### Tata cara install Termux
 pkg update && pkg upgrade
 pkg install nodejs git ffmpeg
 git clone https://github.com/kamunanay/bot.git
