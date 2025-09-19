@@ -1,0 +1,22 @@
+{
+  "name": "xiao-bot",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot with Gemini AI and Auto Status Reaction",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@whiskeysockets/baileys": "^6.4.0",
+    "axios": "^1.6.0",
+    "cfonts": "^3.1.1",
+    "chalk": "^4.1.2",
+    "pino": "^8.15.0",
+    "node-cron": "^3.0.2"
+  },
+  "keywords": ["whatsapp-bot", "gemini-ai", "automation"],
+  "author": "Ganz",
+  "license": "MIT"
+}
